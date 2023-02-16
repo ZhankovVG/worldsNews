@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(6, 104, 104);
+}
+
+aside {
+    float: left;
+    background-color: rgb(3, 56, 45);
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: aliceblue;
+    border-right: 5x solid chartreuse;
+}
+
+aside img {
+    width: 230px;
+    float: left;
+    margin-left: -15px;
+    border: 1px solid rgb(8, 255, 8);
+    border-radius: 3px;
+}
+
+aside .logo {
+    font-size: 25px;
+    margin-left: 50px;
+    padding-top: 5px;
+    color: rgb(205, 240, 80);
+}
+
+aside h3 {
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: Apple Chancery, cursive;
+}
+
+aside ul {
+    list-style: none; 
+    text-decoration: none;
+}
+
+aside ul li {
+    margin-top: 40px;
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .6s ease;
+    font-size: 23px;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: aqua;
+    transform: scale(1.1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main .inscription {
+    float: left;
+    color: azure;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .inscription h1 {
+    font-size: 50px;
+    color: rgb(253, 253, 207);
+}
+
+main .inscription h2 {
+    color: rgb(233, 182, 44);
+}
+
+main .inscription p {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.inscription h1 {
+    margin-top: -90px;
+}
+
+.inscription h1 {
+    color: aquamarine;
+}
+
+.inscription form {
+    margin-top: 50px;
+}
+
+.full_news h2 {
+    color: aquamarine;
+    text-align: center;
+}
+
+.full_news h3 {
+    color: rgb(171, 245, 102);
+    text-align: center;
+}
+
+.full_news p {
+    color: rgb(130, 193, 248);
+    text-align: center;
+    font-size: 18px;
+}

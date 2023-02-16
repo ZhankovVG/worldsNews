@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Новости{% endblock %}
+
+{% block content %}
+<div class="inscription">
+    <h1>Новости</h1>
+
+    {% for el in news %}
+        <h2>{{ el.title }}</h2>
+        <p>{{ el.anons }}</p>
+        <a href="{% url 'news_datail' el.id %}" class="btn btn-info">Читать дальше</a><hr>
+    {% endfor %}
+</div>
+{% endblock %}
